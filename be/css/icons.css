@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+.ui-icon { display:inline-block; vertical-align: text-bottom; }
+
+
+.itti-icon {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	text-indent:16px;
+	vertical-align: text-bottom;
+	overflow: hidden;
+}
+
+span.expand {
+	background: url(i/expand.png) no-repeat;
+	margin-right:3px;
+	float: right;
+}
+
+span.collapse {
+	background: url(i/collapse.png) no-repeat;
+	margin-right:3px;
+}
+
+span.doSearch {
+	background: url(i/search.png) no-repeat;
+	margin-right:5px;
+}
+
+span.doClear {
+	background: url(i/clear.png) no-repeat;
+	margin-right:5px;
+}
+
+span.doNew {
+	background: url(i/new_record.png) no-repeat;
+	margin-right:5px;
+}
+
+span.doExport {
+	background: url(i/export.png) no-repeat;
+	margin-right:5px;
+}
+span.doEdit {
+	background: url(i/edit.png) no-repeat;
+
+}
+span.doDelete {
+	background: url(i/delete.png) no-repeat;
+	margin-right:5px;
+}
+
+span.doSave {
+	background: url(i/save.png) no-repeat;
+	margin-right:5px;
+}
+span.doBack {
+	background: url(i/back_s.png) no-repeat;
+	margin-right:5px;
+}
+
+span.folder {
+	background: url(i/folder.png) no-repeat;
+	margin-right:3px;
+}
+
+span.settings {
+	background: url(i/settings.png) no-repeat;
+	margin-right:3px;
+}
+
+span.resources {
+	background: url(i/resources.png) no-repeat;
+	margin-right:3px;
+}

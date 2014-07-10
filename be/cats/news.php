@@ -1,0 +1,1 @@
+<label for="params.ipp" /> <input type="text" name="params[ipp]" title="Items per page" itti:required="true" itti:type="int" />

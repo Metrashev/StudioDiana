@@ -1,0 +1,19 @@
+php_value upload_max_filesize "20M"
+ 
+RewriteEngine On
+
+<Files  ~ "\.(inc|tpl)$">
+  Order allow,deny
+  Deny from all
+</Files>
+
+#Condition is to rewrite All existing PHP files
+RewriteCond    %{REQUEST_FILENAME}  -f
+RewriteCond    %{REQUEST_FILENAME}  \.php$
+
+#files Not To Rewrite
+RewriteCond    %{REQUEST_FILENAME}  !be/fc\.php$
+
+RewriteRule .* /be/fc.php?MODULE=%{REQUEST_URI}&%{QUERY_STRING} [L]
+
+# MODULE= - e po dobre da e otpred i ako sluchaino niakoi modul polzva sashtia parametar, neshtata da se chupiat po ot rano.

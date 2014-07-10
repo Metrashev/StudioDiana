@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+/* Page Bar */
+
+.itti-be-PageBar table {
+	width:100%;
+	border-collapse: collapse;
+}
+.itti-be-PageBar table td {
+	padding: 0px;
+	width:33%;
+}
+
+.itti-be-PageBar {
+	margin:5px 5px;
+}
+
+.itti-be-PageBar,
+.itti-be-PageBar input,
+.itti-be-PageBar select {
+	color:#666666;
+}
+
+
+
+.itti-be-PageBar button span.first {
+	background: url(i/pb-first.png) no-repeat;
+}
+.itti-be-PageBar button span.prev {
+	background: url(i/pb-prev.png) no-repeat;
+}
+.itti-be-PageBar button span.next {
+	background: url(i/pb-next.png) no-repeat;
+}
+
+.itti-be-PageBar button span.last {
+	background: url(i/pb-last.png) no-repeat;
+}

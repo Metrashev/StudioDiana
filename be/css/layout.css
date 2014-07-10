@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+
+div.ui-layout-pane { 
+	padding:0px;
+}
+
+div.ui-layout-resizer:hover{
+	background-color:#D0DEEE;
+}
+
+
+div.ui-layout-north {
+	background:#666666;
+	height:30px;
+	overflow: hidden;
+}
+
+div.ui-layout-west {
+	background:#DDD;
+	color:#333333;
+	padding:5px;
+}
+
+
+div.ui-layout-center {
+	padding:0px;
+	background-color:#F0F0F0;
+}
+
+div.ui-layout-north table {
+	width:100%;
+	border-collapse: collapse;
+}
+div.ui-layout-north table td {
+	width:33%;
+	padding:5px;
+	font-size:12pt;
+	color:#F0F0F0;
+	
+	
+}
+
+div.ui-layout-north table td a {
+	text-decoration: none;
+	color:#F0F0F0;
+	font-weight:bold;
+}
+
+
+div.ui-layout-north table td.td1 {
+	text-align: left;
+	font-size:10pt;
+}
+
+div.ui-layout-north table td.td2 {
+	text-align: center;
+	/* text-shadow: 2px 2px #333333;*/
+	font-weight:bold;
+}
+
+div.ui-layout-north table td.td3 {
+	text-align: right;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.ittiCMSLogo {
+
+	
+	color:#FF8040;
+	font-weight:bold;
+}
+
+.ittiCMSLogo a {
+	color:#333;
+	text-decoration: none;
+}
+
+.ittiCMSLogo a:hover {
+	color:#FF8040;
+}

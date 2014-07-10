@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+#beMenu ul.dynatree-container{
+	background: none;
+	border:none;
+	overflow: inherit;
+}
+
+#beMenu span.dynatree-icon {
+	display:none;
+}
+
+#beMenu span a.dynatree-title {
+	outline:none;
+	padding:0px 5px 1px 5px;
+}
+
+#beMenu span.dynatree-active a.dynatree-title,
+#beMenu span a.dynatree-title:hover {
+    background-color: #6AABDB !important;
+	border-radius:5px;
+	color:#FFFFFF;
+}
+
