@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /files/
+
+RewriteRule ^([a-f0-9]{32}) /files/mf/$1 [L]
